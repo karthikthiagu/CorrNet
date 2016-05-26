@@ -1,0 +1,14 @@
+This is a updated version of CorrNets code by Sarath that can be found here : https://github.com/apsarath/CorrNet
+
+Scripts in this folder
+
+
+corrNet.py         : script to train CorrNets (deep CorrNets of arbitrary depths can also be trained; greedly layer wise pre-training supported)
+createData.py      : prepare data in the format required for corrNet
+
+Utilities
+
+Initializer.py     : Set of initialization functions
+NNUtil.py          : Set of neural network utilities like activation
+Optimization.py    : Set of utilities for gradient descent and other optimization techniques
+
